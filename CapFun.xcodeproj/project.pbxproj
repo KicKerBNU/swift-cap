@@ -14,6 +14,7 @@
 		0FD7690C2AD2AED2002B8C13 /* CapFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7690B2AD2AED2002B8C13 /* CapFunTests.swift */; };
 		0FD769162AD2AED2002B8C13 /* CapFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD769152AD2AED2002B8C13 /* CapFunUITests.swift */; };
 		0FD769182AD2AED2002B8C13 /* CapFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD769172AD2AED2002B8C13 /* CapFunUITestsLaunchTests.swift */; };
+		0FD769252AD2B785002B8C13 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD769242AD2B785002B8C13 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0FD769112AD2AED2002B8C13 /* CapFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD769152AD2AED2002B8C13 /* CapFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITests.swift; sourceTree = "<group>"; };
 		0FD769172AD2AED2002B8C13 /* CapFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FD769242AD2B785002B8C13 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0FD768FA2AD2AECE002B8C13 /* CapFunApp.swift */,
 				0FD768FC2AD2AECE002B8C13 /* ContentView.swift */,
+				0FD769242AD2B785002B8C13 /* CustomButtonView.swift */,
 				0FD768FE2AD2AED1002B8C13 /* Assets.xcassets */,
 				0FD769002AD2AED1002B8C13 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD769252AD2B785002B8C13 /* CustomButtonView.swift in Sources */,
 				0FD768FD2AD2AECE002B8C13 /* ContentView.swift in Sources */,
 				0FD768FB2AD2AECE002B8C13 /* CapFunApp.swift in Sources */,
 			);
